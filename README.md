@@ -2,6 +2,7 @@
 
 This page provides the scripts and data of the analysis of Gi- and Gs-GPCR 3D complex structure, both for contact as well as RMSD analysis, from Okamato et al., Nature Structure & Molecular Biology, 2021.
 
+
 A local installation of the most recent versions of Psi-blast, Clustalo and Cytoscape are required to reproduce the pipeline.
 We recommend launching the python scripts via anaconda environment (Python3) after having installed the most recent version of the following libraries:
 -numpy
