@@ -10,7 +10,6 @@ We recommend launching the python scripts via anaconda environment (Python3) aft
 -scipy
 -biopython
 
-
 Steps to perform 3D superimposition and RMSD clustering via bash command line:
 
 cd 3D_fit/
