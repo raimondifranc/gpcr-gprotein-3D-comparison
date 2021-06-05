@@ -2,7 +2,7 @@
 
 This page provides the scripts and data of the analysis of Gi- and Gs-GPCR 3D complex structure, both for contact as well as RMSD analysis, from Okamato et al., Nature Structure & Molecular Biology, 2021.
 
-
+## Dependencies
 A local installation of the most recent versions of Psi-blast, Clustalo and Cytoscape are required to reproduce the pipeline.
 We recommend launching the python scripts via anaconda environment (Python3) after having installed the most recent version of the following libraries:
 
@@ -12,7 +12,7 @@ We recommend launching the python scripts via anaconda environment (Python3) aft
 
 -biopython
 
-Steps to perform 3D superimposition and RMSD clustering via bash command line:
+## 3D superimposition and RMSD clustering:
 
 cd 3D_fit/
 
@@ -32,14 +32,14 @@ clustalo -hmm-in=G-alpha.hmm -i Gprot.fa -o Gprot_ali.fa --outfmt=fasta
 
 ./run_bioalign.sh
 
-Script to generate the plots for the figure
+### Script to generate the plots for the figure
 
 ./rmsd_clustering.py
 
 ./rmsd_violin_plot.py
 
 
-Steps to perform contact network analysis via bash command line and Cytoscape:
+## Contact network analysis:
 
 
 cd contact/
@@ -51,7 +51,7 @@ cd contact/
 ./contact_analysis_comp.py ../Gs_pdbs.txt > Gs_contacts.log
 
 
-Script to generate the nodes.txt and links.txt file to load and visualize the contact network through Cytoscape
+### Script to generate the nodes.txt and links.txt file to load and visualize the contact network through Cytoscape
 
 ./Gi_Gs_contact_net_comparison.py
 
