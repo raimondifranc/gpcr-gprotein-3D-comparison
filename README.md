@@ -7,9 +7,7 @@ A local installation of the most recent versions of Psi-blast, Clustalo and Cyto
 We recommend launching the python scripts via anaconda environment (Python3) after having installed the most recent version of the following libraries:
 
 -numpy
-
 -scipy
-
 -biopython
 
 
