@@ -1,0 +1,12 @@
+#0, chain A: guanine nucleotide-binding protein G(I) subunit α-1
+
+#0, chain B: guanine nucleotide-binding protein G(I)/G(S)/G(T) subunit β-1
+
+#0, chain C: neurotensin receptor type 1
+
+#0, chain D: neurotensin
+
+#0, chain G: guanine nucleotide-binding protein G(T) subunit γ-T1
+
+7l0q.cif.gz opened
+Opened 7l0q.cif.gz containing 1 model, 7891 atoms, and 1002 residues

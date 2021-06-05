@@ -1,0 +1,1 @@
+awk -F '\t' '{printf("../../../../code/get_PPI_intra_contact_onthefly_chains.py* %s.cif.gz %s %s 5 > %s_%s_%s_contacts.txt\n", $1, $5, $9, $1, $5, $9)}' ../GPCR-Gprotein_pair_chains.tsv >> run_get_contact.sh

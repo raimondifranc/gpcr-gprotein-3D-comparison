@@ -1,0 +1,137 @@
+#0, chain A: guanine nucleotide-binding protein G(I) subunit α-1
+
+#0, chain B: guanine nucleotide-binding protein G(I)/G(S)/G(T) subunit β-1
+
+#0, chain C: guanine nucleotide-binding protein G(I)/G(S)/G(O) subunit γ-2
+
+#0, chain E: SCFV16
+
+#0, chain R: cannabinoid receptor 2
+
+6pt0.cif.gz opened
+Opened 6pt0.cif.gz containing 1 model, 10232 atoms, and 1293 residues
+Non-consecutive residues (7.A) -> (29.A)
+Non-consecutive residues (85.A) -> (87.A)
+Non-consecutive residues (100.A) -> (102.A)
+Non-consecutive residues (108.A) -> (118.A)
+Non-consecutive residues (143.A) -> (145.A)
+Non-consecutive residues (148.A) -> (150.A)
+Non-consecutive residues (162.A) -> (172.A)
+Non-consecutive residues (197.A) -> (199.A)
+Non-consecutive residues (202.A) -> (216.A)
+Non-consecutive residues (2.B) -> (21.B)
+Non-consecutive residues (26.B) -> (29.B)
+Non-consecutive residues (30.B) -> (32.B)
+Non-consecutive residues (5.C) -> (13.C)
+Non-consecutive residues (26.C) -> (35.C)
+Non-consecutive residues (28.E) -> (30.E)
+Non-consecutive residues (52.E) -> (54.E)
+Non-consecutive residues (4.D) -> (9.D)
+Non-consecutive residues (10.D) -> (29.D)
+Non-consecutive residues (40.D) -> (57.D)
+Non-consecutive residues (60.D) -> (68.D)
+Non-consecutive residues (76.D) -> (108.D)
+Non-consecutive residues (114.D) -> (117.D)
+Non-consecutive residues (122.D) -> (138.D)
+Non-consecutive residues (140.D) -> (143.D)
+Non-consecutive residues (164.D) -> (171.D)
+Non-consecutive residues (177.D) -> (195.D)
+Non-consecutive residues (204.D) -> (211.D)
+Non-consecutive residues (215.D) -> (222.D)
+Non-consecutive residues (223.D) -> (229.D)
+Non-consecutive residues (230.D) -> (232.D)
+Non-consecutive residues (235.D) -> (241.D)
+Non-consecutive residues (244.D) -> (267.D)
+Non-consecutive residues (270.D) -> (273.D)
+Non-consecutive residues (32.A) -> (38.A)
+Non-consecutive residues (58.A) -> (63.A)
+Non-consecutive residues (66.A) -> (71.A)
+Non-consecutive residues (92.A) -> (96.A)
+Non-consecutive residues (43.B) -> (47.B)
+Non-consecutive residues (54.B) -> (59.B)
+Non-consecutive residues (65.B) -> (70.B)
+Non-consecutive residues (74.B) -> (79.B)
+Non-consecutive residues (84.B) -> (90.B)
+Non-consecutive residues (96.B) -> (101.B)
+Non-consecutive residues (107.B) -> (112.B)
+Non-consecutive residues (116.B) -> (121.B)
+Non-consecutive residues (130.B) -> (136.B)
+Non-consecutive residues (142.B) -> (147.B)
+Non-consecutive residues (153.B) -> (157.B)
+Non-consecutive residues (161.B) -> (164.B)
+Non-consecutive residues (174.B) -> (177.B)
+Non-consecutive residues (183.B) -> (188.B)
+Non-consecutive residues (194.B) -> (199.B)
+Non-consecutive residues (203.B) -> (208.B)
+Non-consecutive residues (214.B) -> (218.B)
+Non-consecutive residues (225.B) -> (230.B)
+Non-consecutive residues (236.B) -> (241.B)
+Non-consecutive residues (246.B) -> (250.B)
+Non-consecutive residues (256.B) -> (260.B)
+Non-consecutive residues (269.B) -> (272.B)
+Non-consecutive residues (280.B) -> (285.B)
+Non-consecutive residues (290.B) -> (294.B)
+Non-consecutive residues (311.B) -> (316.B)
+Non-consecutive residues (323.B) -> (327.B)
+Non-consecutive residues (331.B) -> (335.B)
+Non-consecutive residues (2.E) -> (6.E)
+Non-consecutive residues (9.E) -> (11.E)
+Non-consecutive residues (17.E) -> (24.E)
+Non-consecutive residues (32.E) -> (39.E)
+Non-consecutive residues (43.E) -> (50.E)
+Non-consecutive residues (57.E) -> (59.E)
+Non-consecutive residues (67.E) -> (72.E)
+Non-consecutive residues (77.E) -> (82.E)
+Non-consecutive residues (91.E) -> (98.E)
+Non-consecutive residues (114.E) -> (118.E)
+Non-consecutive residues (125.E) -> (127.E)
+Non-consecutive residues (140.E) -> (146.E)
+Non-consecutive residues (159.E) -> (164.E)
+Non-consecutive residues (171.E) -> (174.E)
+Non-consecutive residues (188.E) -> (193.E)
+Non-consecutive residues (196.E) -> (201.E)
+Non-consecutive residues (210.E) -> (216.E)
+Non-consecutive residues (228.E) -> (230.E)
+Model 1 (mt1-gi1.cif.gz) appears to be a protein without secondary structure assignments.
+Automatically computing assignments using 'ksdssp' and parameter values:
+  energy cutoff -0.5
+  minimum helix length 3
+  minimum strand length 3
+Use command 'help ksdssp' for more information.
+
+Computing secondary structure assignments...
+Computed secondary structure assignments (see reply log)
+mt1-gi1.cif.gz opened
+Opened mt1-gi1.cif.gz containing 1 model, 8768 atoms, and 1117 residues
+Computing secondary structure assignments for model(s) #0, #1
+using ksdssp (Kabsch and Sander Define Secondary Structure
+of Proteins) with the parameters:
+  energy cutoff -0.5
+  minimum helix length 3
+  minimum strand length 3
+
+
+
+Matchmaker 6pt0.cif.gz, chain R (#0) with mt1-gi1.cif.gz, chain D (#1), sequence alignment score = 352.9
+with these parameters:
+	chain pairing: ss
+	Needleman-Wunsch using BLOSUM-62
+
+	ss fraction: 0.3
+	gap open (HH/SS/other) 18/18/6, extend 1
+	ss matrix: 
+ (H, O): -6
+ (S, S): 6
+ (H, H): 6
+ (O, S): -6
+ (O, O): 4
+ (H, S): -9
+
+
+	iteration cutoff: 2
+
+RMSD between 112 pruned atom pairs is 1.106 angstroms; (across all 268 pairs: 5.047)
+
+
+Executing rmsd ['#0:11,12,13,14,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,186,187,188,189,190,191,192,193,194,195,196,197,198,199,200,201,202,203,204,205,206,207,208,209,210,211,212,213,214,215,216,217,218,219,220,221,222,223,224,225,226,242,243,244,245,246,247,248,249,250,251,252,253,254,255,256,257,258,259,260,261,262,263,264,265,266,267,268,269,270,271,284,285,286,287,288,292,293,294,295,302,303,304,305,306,307,308,309,310,311,313,314,316,317,318,319,320,321,322,323,324,331,332,333,334,335,336,337,338,339,340,341,342,343,344,345,346,347,348,349,350,351,352,353.A@CA', '#1:11,12,13,14,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,186,187,188,189,190,191,192,193,194,195,196,197,198,199,200,201,202,203,204,205,206,207,208,209,210,211,212,213,214,215,216,217,218,219,220,221,222,223,224,225,226,242,243,244,245,246,247,248,249,250,251,252,253,254,255,256,257,258,259,260,261,262,263,264,265,266,267,268,269,270,271,284,285,286,287,288,292,293,294,295,302,303,304,305,306,307,308,309,310,311,313,314,316,317,318,319,320,321,322,323,324,331,332,333,334,335,336,337,338,339,340,341,342,343,344,345,346,347,348,349,350,351,352,353.A@CA']
+

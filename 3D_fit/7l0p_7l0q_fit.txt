@@ -1,0 +1,3 @@
+182 182
+Fitting RMSD =  1.3282599185871184e-14
+Selection RMSD =  0.0

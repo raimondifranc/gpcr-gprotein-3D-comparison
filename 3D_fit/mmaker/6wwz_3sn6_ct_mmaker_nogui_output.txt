@@ -1,0 +1,14 @@
+#0, chain A: guanine nucleotide-binding protein G(O) subunit α,guanine nucleotide-binding protein G(O) subunit α
+
+#0, chain B: guanine nucleotide-binding protein G(I)/G(S)/G(T) subunit β-1
+
+#0, chain C: C-C motif chemokine 20
+
+#0, chain R: C-C chemokine receptor type 6,C-C chemokine receptor type 6
+
+#0, chain S: SCFV16
+
+#0, chain Y: guanine nucleotide-binding protein G(I)/G(S)/G(O) subunit γ-2
+
+6wwz.cif.gz opened
+Opened 6wwz.cif.gz containing 1 model, 9450 atoms, and 1211 residues

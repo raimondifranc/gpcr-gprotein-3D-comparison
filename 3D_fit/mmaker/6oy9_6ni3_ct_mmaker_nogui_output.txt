@@ -1,0 +1,10 @@
+#0, chain A: gt-α/GI1-α chimera
+
+#0, chain B: guanine nucleotide-binding protein G(I)/G(S)/G(T) subunit β-1
+
+#0, chain G: guanine nucleotide-binding protein G(T) subunit γ-T1
+
+#0, chain R: rhodopsin
+
+6oy9.cif.gz opened
+Opened 6oy9.cif.gz containing 1 model, 7519 atoms, and 949 residues

@@ -1,0 +1,12 @@
+#0, chain A: gt-α/GI1-α chimera
+
+#0, chain B: guanine nucleotide-binding protein G(I)/G(S)/G(T) subunit β-1
+
+#0, chain G: guanine nucleotide-binding protein G(T) subunit γ-T1
+
+#0, chain N: camelid antibody vhh fragment
+
+#0, chain R: rhodopsin
+
+6oya.cif.gz opened
+Opened 6oya.cif.gz containing 1 model, 8321 atoms, and 1057 residues

@@ -1,0 +1,355 @@
+PSIBLAST 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: 7jjo.fa
+           5 sequences; 1,207 total letters
+
+Results from round 1
+
+
+Query= sp|P04896|GNAS2_BOVIN Guanine nucleotide-binding protein G(s)
+subunit alpha isoforms short OS=Bos taurus OX=9913 GN=GNAS PE=1 SV=1
+
+Length=394
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+7jjo_A Sequence from PDB                                              347        8e-122
+7jjo_R Sequence from PDB                                              21.6       0.11  
+7jjo_N Sequence from PDB                                              18.9       0.53  
+
+
+>7jjo_A Sequence from PDB
+Length=366
+
+ Score = 347 bits (889),  Expect = 8e-122, Method: Compositional matrix adjust.
+ Identities = 167/190 (88%), Positives = 167/190 (88%), Gaps = 0/190 (0%)
+
+Query  205  SGIFETKFQVDKVNFHMFDVGGQRDERRKWIQCFNDVTAIIFVVASSSYNMVIREDNQTN  264
+            SGIFETKFQVDKVNFHMFDVGGQRDERRKWIQCFNDVTAIIFVVASSS        NQTN
+Sbjct  177  SGIFETKFQVDKVNFHMFDVGGQRDERRKWIQCFNDVTAIIFVVASSSXXXXXXXXNQTN  236
+
+Query  265  RLQEALNLFKSIWNNRWLRTISVILFLNKQDLLAEKVLAGKSKIEDYFPEFARYTTPEDA  324
+            RLQEALNLFKSIWNNRWLRTISVILFLNKQDLLAEKVL    KIEDYFPEFARYTTP   
+Sbjct  237  RLQEALNLFKSIWNNRWLRTISVILFLNKQDLLAEKVLXXXXKIEDYFPEFARYTTPXXX  296
+
+Query  325  TPEPGEDPRVTRAKYFIRDEFLRISTASGDGRHYCYPHFTCAVDTENIRRVFNDCRDIIQ  384
+                  DPRVTRAKYFIRDEFLRISTASGDGRHYCYPHFT  VDTENIRRVFNDCRDIIQ
+Sbjct  297  XXXXXXDPRVTRAKYFIRDEFLRISTASGDGRHYCYPHFTXXVDTENIRRVFNDCRDIIQ  356
+
+Query  385  RMHLRQYELL  394
+            RMHLRQYELL
+Sbjct  357  RMHLRQYELL  366
+
+
+ Score = 65.9 bits (159),  Expect = 8e-16, Method: Compositional matrix adjust.
+ Identities = 32/33 (97%), Positives = 32/33 (97%), Gaps = 0/33 (0%)
+
+Query  15  EEKAQREANKKIEKQLQKDKQVYRATHRLLLLG  47
+           EEK QREANKKIEKQLQKDKQVYRATHRLLLLG
+Sbjct  1   EEKGQREANKKIEKQLQKDKQVYRATHRLLLLG  33
+
+
+>7jjo_R Sequence from PDB
+Length=318
+
+ Score = 21.6 bits (44),  Expect = 0.11, Method: Compositional matrix adjust.
+ Identities = 10/35 (29%), Positives = 18/35 (51%), Gaps = 0/35 (0%)
+
+Query  241  VTAIIFVVASSSYNMVIREDNQTNRLQEALNLFKS  275
+            + A++ ++  +   +VI     T RLQ   NLF +
+Sbjct  8    LMALVVLLIVAGNVLVIAAIGSTQRLQTLTNLFIT  42
+
+
+ Score = 18.5 bits (36),  Expect = 1.1, Method: Compositional matrix adjust.
+ Identities = 6/12 (50%), Positives = 8/12 (67%), Gaps = 0/12 (0%)
+
+Query  74   EEDPQAARSNSD  85
+            +EDPQA +   D
+Sbjct  145  DEDPQALKCYQD  156
+
+
+ Score = 17.3 bits (33),  Expect = 2.2, Method: Compositional matrix adjust.
+ Identities = 17/74 (23%), Positives = 30/74 (41%), Gaps = 5/74 (7%)
+
+Query  172  IDCAQYFLDKIDVIKQDDYV----PSDQDLLRCRVLTSGIFETKFQVDK-VNFHMFDVGG  226
+            + C    ++ + VI  D Y+    P     L  R     I  T + +   V+F    +  
+Sbjct  83   VLCVTASIETLCVIAIDRYLAITSPFRYQSLMTRARAKVIICTVWAISALVSFLPIMMHW  142
+
+Query  227  QRDERRKWIQCFND  240
+             RDE  + ++C+ D
+Sbjct  143  WRDEDPQALKCYQD  156
+
+
+>7jjo_N Sequence from PDB
+Length=128
+
+ Score = 18.9 bits (37),  Expect = 0.53, Method: Composition-based stats.
+ Identities = 11/42 (26%), Positives = 15/42 (36%), Gaps = 0/42 (0%)
+
+Query  233  KWIQCFNDVTAIIFVVASSSYNMVIREDNQTNRLQEALNLFK  274
+            +W+   +   A I    S      I  DN  N L   +N  K
+Sbjct  46   EWVSDISQSGASISYTGSVKGRFTISRDNAKNTLYLQMNSLK  87
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.136    0.402    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 362052
+Results from round 1
+
+
+Query= sp|P62871|GBB1_BOVIN Guanine nucleotide-binding protein
+G(I)/G(S)/G(T) subunit beta-1 OS=Bos taurus OX=9913 GN=GNB1 PE=1
+SV=3
+
+Length=340
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+7jjo_B Sequence from PDB                                              699        0.0  
+7jjo_R Sequence from PDB                                              18.1       1.1  
+7jjo_N Sequence from PDB                                              16.2       4.5  
+
+
+>7jjo_B Sequence from PDB
+Length=338
+
+ Score = 699 bits (1805),  Expect = 0.0, Method: Compositional matrix adjust.
+ Identities = 338/338 (100%), Positives = 338/338 (100%), Gaps = 0/338 (0%)
+
+Query  3    ELDQLRQEAEQLKNQIRDARKACADATLSQITNNIDPVGRIQMRTRRTLRGHLAKIYAMH  62
+            ELDQLRQEAEQLKNQIRDARKACADATLSQITNNIDPVGRIQMRTRRTLRGHLAKIYAMH
+Sbjct  1    ELDQLRQEAEQLKNQIRDARKACADATLSQITNNIDPVGRIQMRTRRTLRGHLAKIYAMH  60
+
+Query  63   WGTDSRLLVSASQDGKLIIWDSYTTNKVHAIPLRSSWVMTCAYAPSGNYVACGGLDNICS  122
+            WGTDSRLLVSASQDGKLIIWDSYTTNKVHAIPLRSSWVMTCAYAPSGNYVACGGLDNICS
+Sbjct  61   WGTDSRLLVSASQDGKLIIWDSYTTNKVHAIPLRSSWVMTCAYAPSGNYVACGGLDNICS  120
+
+Query  123  IYNLKTREGNVRVSRELAGHTGYLSCCRFLDDNQIVTSSGDTTCALWDIETGQQTTTFTG  182
+            IYNLKTREGNVRVSRELAGHTGYLSCCRFLDDNQIVTSSGDTTCALWDIETGQQTTTFTG
+Sbjct  121  IYNLKTREGNVRVSRELAGHTGYLSCCRFLDDNQIVTSSGDTTCALWDIETGQQTTTFTG  180
+
+Query  183  HTGDVMSLSLAPDTRLFVSGACDASAKLWDVREGMCRQTFTGHESDINAICFFPNGNAFA  242
+            HTGDVMSLSLAPDTRLFVSGACDASAKLWDVREGMCRQTFTGHESDINAICFFPNGNAFA
+Sbjct  181  HTGDVMSLSLAPDTRLFVSGACDASAKLWDVREGMCRQTFTGHESDINAICFFPNGNAFA  240
+
+Query  243  TGSDDATCRLFDLRADQELMTYSHDNIICGITSVSFSKSGRLLLAGYDDFNCNVWDALKA  302
+            TGSDDATCRLFDLRADQELMTYSHDNIICGITSVSFSKSGRLLLAGYDDFNCNVWDALKA
+Sbjct  241  TGSDDATCRLFDLRADQELMTYSHDNIICGITSVSFSKSGRLLLAGYDDFNCNVWDALKA  300
+
+Query  303  DRAGVLAGHDNRVSCLGVTDDGMAVATGSWDSFLKIWN  340
+            DRAGVLAGHDNRVSCLGVTDDGMAVATGSWDSFLKIWN
+Sbjct  301  DRAGVLAGHDNRVSCLGVTDDGMAVATGSWDSFLKIWN  338
+
+
+>7jjo_R Sequence from PDB
+Length=318
+
+ Score = 18.1 bits (35),  Expect = 1.1, Method: Compositional matrix adjust.
+ Identities = 15/66 (23%), Positives = 31/66 (47%), Gaps = 6/66 (9%)
+
+Query  238  GNAFATGSDDATCRLFDLRADQELMTYSHDNIICGITSVSFSKSGRLLLAG---YDDFNC  294
+            GN     +  +T RL  L  +  + + +  +++ G+  V F  +  L++ G   +  F C
+Sbjct  19   GNVLVIAAIGSTQRLQTL-TNLFITSLACADLVVGLLVVPFGAT--LVVRGTWLWGSFLC  75
+
+Query  295  NVWDAL  300
+             +W +L
+Sbjct  76   ELWTSL  81
+
+
+>7jjo_N Sequence from PDB
+Length=128
+
+ Score = 16.2 bits (30),  Expect = 4.5, Method: Compositional matrix adjust.
+ Identities = 7/17 (41%), Positives = 11/17 (65%), Gaps = 0/17 (0%)
+
+Query  130  EGNVRVSRELAGHTGYL  146
+            +G   +SR+ A +T YL
+Sbjct  65   KGRFTISRDNAKNTLYL  81
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.133    0.420    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 309666
+Results from round 1
+
+
+Query= sp|P63212|GBG2_BOVIN Guanine nucleotide-binding protein
+G(I)/G(S)/G(O) subunit gamma-2 OS=Bos taurus OX=9913 GN=GNG2 PE=1
+SV=2
+
+Length=71
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+7jjo_G Sequence from PDB                                              116        2e-40
+7jjo_R Sequence from PDB                                              13.1       7.0  
+
+
+>7jjo_G Sequence from PDB
+Length=57
+
+ Score = 116 bits (290),  Expect = 2e-40, Method: Compositional matrix adjust.
+ Identities = 57/57 (100%), Positives = 57/57 (100%), Gaps = 0/57 (0%)
+
+Query  8   SIAQARKLVEQLKMEANIDRIKVSKAAADLMAYCEAHAKEDPLLTPVPASENPFREK  64
+           SIAQARKLVEQLKMEANIDRIKVSKAAADLMAYCEAHAKEDPLLTPVPASENPFREK
+Sbjct  1   SIAQARKLVEQLKMEANIDRIKVSKAAADLMAYCEAHAKEDPLLTPVPASENPFREK  57
+
+
+>7jjo_R Sequence from PDB
+Length=318
+
+ Score = 13.1 bits (22),  Expect = 7.0, Method: Composition-based stats.
+ Identities = 6/17 (35%), Positives = 8/17 (47%), Gaps = 0/17 (0%)
+
+Query  49   PLLTPVPASENPFREKK  65
+            PLL  +      +RE K
+Sbjct  180  PLLIMIFVYLRVYREAK  196
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.127    0.351    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 51089
+Results from round 1
+
+
+Query= sp|P07700|ADRB1_MELGA Beta-1 adrenergic receptor OS=Meleagris
+gallopavo OX=9103 GN=ADRB1 PE=1 SV=1
+
+Length=483
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+7jjo_R Sequence from PDB                                              548        0.0  
+7jjo_A Sequence from PDB                                              19.2       0.69 
+7jjo_B Sequence from PDB                                              17.3       3.2  
+
+
+>7jjo_R Sequence from PDB
+Length=318
+
+ Score = 548 bits (1412),  Expect = 0.0, Method: Compositional matrix adjust.
+ Identities = 276/318 (87%), Positives = 277/318 (87%), Gaps = 0/318 (0%)
+
+Query  40   WEAGMSLLMALVVLLIVAGNVLVIAAIGRTQRLQTLTNLFITSLACADLVMGLLVVPFGA  99
+            WEAGMSLLMALVVLLIVAGNVLVIAAIG TQRLQTLTNLFITSLACADLV+GLLVVPFGA
+Sbjct  1    WEAGMSLLMALVVLLIVAGNVLVIAAIGSTQRLQTLTNLFITSLACADLVVGLLVVPFGA  60
+
+Query  100  TLVVRGTWLWGSFLCECWTSLDVLCVTASIETLCVIAIDRYLAITSPFRYQSLMTRARAK  159
+            TLVVRGTWLWGSFLCE WTSLDVLCVTASIETLCVIAIDRYLAITSPFRYQSLMTRARAK
+Sbjct  61   TLVVRGTWLWGSFLCELWTSLDVLCVTASIETLCVIAIDRYLAITSPFRYQSLMTRARAK  120
+
+Query  160  VIICTVWAISALVSFLPIMMHWWRDEDPQALKCYQDPGCCDFVTNRAYAIASSIISFYIP  219
+            VIICTVWAISALVSFLPIMMHWWRDEDPQALKCYQDPGCCDFVTNRAYAIASSIISFYIP
+Sbjct  121  VIICTVWAISALVSFLPIMMHWWRDEDPQALKCYQDPGCCDFVTNRAYAIASSIISFYIP  180
+
+Query  220  LLIMIFVYLRVYREAKEQIRKIDRCEGRFYGSQEQPQPPPLPQHQPILGNGRASKRKTSR  279
+            LLIMIFVYLRVYREAKEQIRKID    RF                               
+Sbjct  181  LLIMIFVYLRVYREAKEQIRKIDXXXXRFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX  240
+
+Query  280  VMAMREHKALKTLGIIMGVFTLCWLPFFLVNIVNVFNRDLVPDWLFVFFNWLGYANSAFN  339
+                REHKALKTLGIIMGVFTLCWLPFFLVNIVNVFNRDLVPDWLFVFFNWLGYANSAFN
+Sbjct  241  XXXXREHKALKTLGIIMGVFTLCWLPFFLVNIVNVFNRDLVPDWLFVFFNWLGYANSAFN  300
+
+Query  340  PIIYCRSPDFRKAFKRLL  357
+            PIIYCRSPDFRKAFKRLL
+Sbjct  301  PIIYCRSPDFRKAFKRLL  318
+
+
+>7jjo_A Sequence from PDB
+Length=366
+
+ Score = 19.2 bits (38),  Expect = 0.69, Method: Compositional matrix adjust.
+ Identities = 9/42 (21%), Positives = 19/42 (45%), Gaps = 0/42 (0%)
+
+Query  38   QQWEAGMSLLMALVVLLIVAGNVLVIAAIGRTQRLQTLTNLF  79
+            ++W    + + A++ ++  +          +T RLQ   NLF
+Sbjct  204  RKWIQCFNDVTAIIFVVASSSXXXXXXXXNQTNRLQEALNLF  245
+
+
+ Score = 18.1 bits (35),  Expect = 1.6, Method: Compositional matrix adjust.
+ Identities = 7/20 (35%), Positives = 11/20 (55%), Gaps = 0/20 (0%)
+
+Query  183  RDEDPQALKCYQDPGCCDFV  202
+            RDE  + ++C+ D     FV
+Sbjct  200  RDERRKWIQCFNDVTAIIFV  219
+
+
+>7jjo_B Sequence from PDB
+Length=338
+
+ Score = 17.3 bits (33),  Expect = 3.2, Method: Compositional matrix adjust.
+ Identities = 15/66 (23%), Positives = 29/66 (44%), Gaps = 6/66 (9%)
+
+Query  58   GNVLVIAAIGRTQRLQTL-TNLFITSLACADLVMGLLVVPFGAT--LVVRGTWLWGSFLC  114
+            GN     +   T RL  L  +  + + +  +++ G+  V F  +  L++ G   +  F C
+Sbjct  236  GNAFATGSDDATCRLFDLRADQELMTYSHDNIICGITSVSFSKSGRLLLAG---YDDFNC  292
+
+Query  115  ECWTSL  120
+              W +L
+Sbjct  293  NVWDAL  298
+
+
+
+Lambda      K        H        a         alpha
+   0.326    0.139    0.455    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 449328
+
+
+  Database: 7jjo.fa
+    Posted date:  Mar 7, 2021  10:29 AM
+  Number of letters in database: 1,207
+  Number of sequences in database:  5
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

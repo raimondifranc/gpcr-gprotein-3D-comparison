@@ -1,0 +1,12 @@
+#0, chain A: guanine nucleotide-binding protein G(I) subunit α-1
+
+#0, chain B: guanine nucleotide-binding protein G(I)/G(S)/G(T) subunit β-1
+
+#0, chain C: guanine nucleotide-binding protein G(I)/G(S)/G(O) subunit γ-2
+
+#0, chain E: SCFV16
+
+#0, chain R: cannabinoid receptor 2
+
+6pt0.cif.gz opened
+Opened 6pt0.cif.gz containing 1 model, 10232 atoms, and 1293 residues
